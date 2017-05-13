@@ -95,6 +95,10 @@ a{
     top: 9%;
     right: 0%;
     background: hsla(0,0%,0%,0.7);
+    border-bottom:2px solid #cfcfcf;
+  }
+  .top-menu ul li:not(.item4){
+    border-bottom:1px solid #cfcfcf;
   }
   .top-menu ul a{
     color:#cfcfcf;
