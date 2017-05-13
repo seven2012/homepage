@@ -252,7 +252,7 @@ a{
     }
 }
 /*图片集部分*/
-#main .hill-show_ul{
+#main #hill-show_ul{
     width:70%;
     margin:0 auto;
     display: flex;
@@ -260,7 +260,7 @@ a{
     justify-content:space-between;
     margin-bottom:24px;
 }
-.hill-show_ul li{
+#hill-show_ul li{
     width:30%;
     color:#cfcfcf;
     font-family: "microsoft yahei";
@@ -271,22 +271,22 @@ a{
 }
 
 @media(max-width:960px){
-    .hill-show_ul li{
+    #hill-show_ul li{
         width:45%;
     }
 }
 @media(max-width:500px){
-    #main .hill-show_ul{
+    #main #hill-show_ul{
     width:90%;
     }
-    .hill-show_ul li{
+    #hill-show_ul li{
         width:100%;
     }
 }
-.hill-show_ul li:hover{
+#hill-show_ul li:hover{
     background-color: hsla(0,0%,0%,0.5);
 }
-.hill-show_ul li > .img_hill{
+#hill-show_ul li > .img_hill{
     width:100%;
     height:30vh;
     vertical-align: bottom;
@@ -306,7 +306,7 @@ a{
     background:#000;
     opacity: 0.3;
 }
-.hill-show_ul li > .province_intro{
+#hill-show_ul li > .province_intro{
     text-align: center;
     position: absolute;
     bottom: 0;
