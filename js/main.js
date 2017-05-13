@@ -30,3 +30,14 @@ header.addEventListener('mousemove', function(e){
         $('html, body').animate({scrollTop: 0}, 'slow');
         return false;
     });
+
+/*导航条的响应式*/
+let ulmenu = document.querySelector(".menu_ul")
+let topmenu = document.querySelector(".top-menu")
+
+topmenu.addEventListener('mouseover', function () {
+  ulmenu.style.display = 'block';
+})
+topmenu.addEventListener('mouseout', function () {
+  ulmenu.style.display = 'none';
+})
